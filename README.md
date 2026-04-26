@@ -631,6 +631,17 @@ Check your version:
 claude --version
 ```
 
+### Node.js Runtime
+
+**Recommended version: Node 20 LTS**
+
+Most of the cross-platform scripts in this repo are written in Node.js. The repository includes an `.nvmrc` file so contributors can align quickly:
+
+```bash
+nvm use
+node --version
+```
+
 ### Important: Hooks Auto-Loading Behavior
 
 > WARNING: **For Contributors:** Do NOT add a `"hooks"` field to `.claude-plugin/plugin.json`. This is enforced by a regression test.
